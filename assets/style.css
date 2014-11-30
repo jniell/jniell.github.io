@@ -349,6 +349,13 @@ right: 225;
     text-align: center;
     float left;
 }
+#apply:hover {
+    background: #9b2b4d;
+}
+
+#apply:active {
+    color: yellow;
+}
 
 #questions {
     margin-left: auto;
