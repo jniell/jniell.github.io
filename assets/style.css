@@ -1,0 +1,369 @@
+body {  /*the outer layer of the site and global style attributes*/
+margin: 0px;
+background: #f7f5f2;
+//font-family:'Josefin Sans';
+font-family: helvetica;
+}
+
+/* Utility Stylesheets */
+
+a {
+color: inherit;
+text-decoration: none;
+}
+
+.clear {
+clear: both;
+}
+
+.img-scaled {
+width: 100%;
+}
+
+
+#content {
+    position: absolute;
+    height: 100%;
+    background: white;
+    width: 100%;
+}
+/* Home */
+#first-page {
+    background: #181818;
+    width: 100%;
+    height: 100%;
+}
+#navbar {
+    width: 100%;
+    margin-bottom: 9px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4px 0;
+
+}
+#homebutton {
+    height: 40px;
+    width: auto;
+}
+#homenav {
+    cursor: pointer;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-right: 10%;
+}
+li {
+    color: #8b1b3d;
+    float: left;
+    border-right: 2px;
+
+}
+li:hover {
+    background-color: #2a2a2a;
+}
+#homenav:hover{
+    background-color: #8b1b3d;
+}
+#sign_in {
+   padding: 0 24px;
+   float: right;
+    color: #FFFFFF;
+   margin-top: 9px;
+   cursor: pointer;
+}
+#sign_in:hover {
+    color: #daa520;
+}
+#sign_up {
+    padding: 0 24px;
+    float: right;
+    color: #daa520;
+    border: 3px;
+    border-style: solid;
+    margin-top: 6px;
+    background-color:;
+    cursor: pointer;
+}
+#sign_up:hover{
+    color: #efbf25;
+}
+
+#navbar_items li {
+    line-height: 30px;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+#navbar_items .divider {
+    cursor: default;
+}
+.divider:hover {
+    background: 181818;
+}
+
+
+#logosearch {
+    margin-top: 10%;
+    text-align: center;
+    color: #8b1b3d;
+}
+#subtitle {
+    font-weight: 500;
+        font-size: 22px;
+
+}
+
+#hero{
+    display: inline-block;
+    width:  100%;
+    position: relative;
+    margin-top: 15%;
+    font-family: helvetica;
+    text-align: center;
+}
+
+#logo{
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 85px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+#title {
+    display: inline-block;
+}
+
+#icon {
+    /* width: 10%; */
+    height: 10%;
+    width:  auto;
+}
+#learnMore{
+    margin-top: 3%;
+    width: 50%;
+    height: 20px;
+    border: 3px;
+    border-style: solid;
+    border-color: #2a2a2a; 
+    padding: 25px;
+    font-size: 35px;
+    background: #3f3f3f;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    color: white;
+}
+
+#learnHover{
+    
+}
+
+#searchbar{
+    margin-left: calc(50% - 535px/2);
+    padding: 10px;
+    padding-left: 25px;
+    width: 500px;
+    font-weight: 800;
+    background-color: #daa520;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 1%;
+    cursor: text;
+}
+#sign_up:active {
+    background-color: #202020
+}
+
+#LowerContent{
+    width: 75%;
+    text-align: center;
+}
+
+.page-title {
+    text-align: center;
+    top: 5%;
+    font-size: 72px;
+    font-weight: 100;
+    width: 100%;
+    color: white;
+    /* margin-left: 10%; */
+    position: absolute;
+    background-color: #2a2a2a;
+}
+.carousel-container{
+    top: 20%;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+#carousel{
+    width: 4800px;
+    height: 600px;
+    margin-left: 0px;
+    -webkit-transition: all 0.3s;
+}
+
+.carousel-item{
+    width: 960px;
+    position: relative;
+    height: 600px;
+    float: left;
+
+
+}
+
+.quote, .text {
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+#carousel-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    left: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+/* Styling for the carousel next button */
+#carousel-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    right: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+/* Styling for the author text in each quote */
+.author {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#second-page {
+    width: 100%;
+    height: 100%;
+
+    background-color: #8b1b3d;
+    position: relative
+}
+
+.img-scaled {
+    width: 100%;
+    height: 100%;
+}
+
+.img-scaled-wh {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-selector {
+width: 600px;
+height: 70px;
+position: absolute;
+margin-top: 10%;
+clear: both;
+left: 225;
+right: 225;
+}
+
+.selector-active {
+    color: white;
+}
+
+
+.selector-item {
+    display: inline;
+    color: white;
+    font-size: 24px;
+    width: 149px;
+
+
+}
+
+#page-three {
+    background-color:  gray;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#title3 {
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+    font-size: 72px;
+    font-weight: 100;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    /* margin-left: 10%; */
+    background-color: #8b1b3d;
+
+}
+#apply {
+    margin-left: auto;
+    margin-right: auto;
+    background: #8b1b3d;
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #700020;
+    border-radius: 5px;
+    margin-top: 145px;
+    width: 50%;
+    text-align: center;
+    float left;
+}
+
+#questions {
+    margin-left: auto;
+    margin-right: auto;
+    background: #8b1b3d;
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #700020;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+ 
